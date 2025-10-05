@@ -118,7 +118,7 @@ void lsh_loop(){
     }while(status);
 }
 
-// this section coverse the shell builtins 
+// this section covers the shell builtins 
 int lsh_cd(char **args);
 int lsh_help(char **args);
 int lsh_exit(char **args);
@@ -177,4 +177,5 @@ int lsh_execute(char **args){
 int main(int argc,char** argv){
     lsh_loop();
     exit(EXIT_SUCCESS);
+
 }
